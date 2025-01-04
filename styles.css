@@ -1,0 +1,11 @@
+.katex-display,
+.katex {
+  direction: auto;
+  unicode-bidi: plaintext;
+}
+
+.katex-display *,
+.katex * {
+  direction: inherit;
+  unicode-bidi: inherit;
+}

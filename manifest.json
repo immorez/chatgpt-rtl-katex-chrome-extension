@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Add dir='auto' to KaTeX (ChatGPT Only)",
+  "name": "KaTeX Direction Extension",
   "version": "1.0",
-  "description": "Adds dir='auto' to all elements with the class 'katex-display' on ChatGPT.",
-  "permissions": [],
+  "description": "Adds direction: auto to KaTeX elements.",
   "host_permissions": [
     "https://chat.openai.com/*",
     "https://chatgpt.com/*",
@@ -16,8 +15,7 @@
         "https://chatgpt.com/*",
         "https://chat.com/*"
       ],
-      "js": ["content.js"],
-      "run_at": "document_end"
+      "css": ["styles.css"]
     }
   ]
 }
